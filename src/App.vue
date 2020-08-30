@@ -3,7 +3,7 @@
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-toolbar-title class="headline monster-font">
-           <span style="font-size: 1.2rem;"> Bienvenido a la Ventanilla Académica</span>
+           <span style="font-size: 1.2rem;"> Bienvenido a la Ventanilla de la Vicerrectoría de Proyecto de Vida</span>
         </v-toolbar-title>
 
       </div>

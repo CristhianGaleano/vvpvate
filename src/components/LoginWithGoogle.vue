@@ -10,7 +10,7 @@
                     <v-card>
                 <v-toolbar color="infoPublicidad">
                     <v-toolbar-title>
-                        La Vicerrectoría Académica
+                        La Vicerrectoría de Proyecto de Vida
                     </v-toolbar-title>
                 </v-toolbar>
                 <!-- <v-card-text>
@@ -22,11 +22,15 @@
                        <div class="row">
                            <div class="col-md-12">
                                <p>
-                                  La Vicerrectoría Académica orienta su actuar a través del Proyecto Educativo a través de sus facultades y áreas administrativas que acompañar el quehacer formativo, investigativo y de proyección social.
+                                  La Universidad Católica de Pereira considera que su misión es “Ser apoyo para la formación en y para la vida” El proceso de “llegara ser" y de “formarse en y para la vida" tiene una fase muy importante, diseñar, imaginar e idear el propio PROYECTO PERSONAL DE VIDA.
                                </p>
                                <p>
-                                Facultades, Vicerrectoría Académica. Admisiones
+                                   Los centros y áreas de la Vicerrectoría de Proyecto de Vida, están atentas para acompañar a la comunidad universitaria en este proceso.
                                </p>
+                               <p>
+                                   Contáctenos: vicerrectoria.proyectodevida@ucp.edu.co
+                               </p>
+                               
                                 <p>
                                 <a href="https://www.ucp.edu.co/pregrado/">Oferta de Pregrados</a>
                                 </p>
@@ -136,7 +140,7 @@ export default {
                 }
 
 
-                await db.collection('usuariosvaca')
+                await db.collection('usuariosvvpv')
                         .doc(uidCurrentUser)
                         .set(usuario)
                         .then(function() {
@@ -146,7 +150,7 @@ export default {
                         });
 
                   //  acces for document on BD
-                let doc = await db.collection('usuariosvaca')
+                let doc = await db.collection('usuariosvvpv')
                                 .doc(uidCurrentUser)
                                 .get()
                                 console.log(doc);
@@ -158,7 +162,7 @@ export default {
                     this.enviarNotificacion('No se encontró la información del usuario', 'Error')
                 }
 
-                storage.ref('usuariosvaca/'+uidCurrentUser+'/photo.jpg')
+                storage.ref('usuariosvvpv/'+uidCurrentUser+'/photo.jpg')
                 let task = storage.put(photoCurrentUser)
                 console.log("task: "+task);
             }
