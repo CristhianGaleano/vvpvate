@@ -10,7 +10,7 @@
                     <v-card>
                 <v-toolbar color="infoPublicidad">
                     <v-toolbar-title>
-                        La Vicerrectoría de Proyecto de Vida
+                        Vicerrectoría de Proyecto de Vida
                     </v-toolbar-title>
                 </v-toolbar>
                 <!-- <v-card-text>
@@ -22,21 +22,18 @@
                        <div class="row">
                            <div class="col-md-12">
                                <p>
-                                  La Universidad Católica de Pereira considera que su misión es “Ser apoyo para la formación en y para la vida” El proceso de “llegara ser" y de “formarse en y para la vida" tiene una fase muy importante, diseñar, imaginar e idear el propio PROYECTO PERSONAL DE VIDA.
+                                  La Universidad Católica de Pereira considera que su misión es “Ser apoyo para la formación en y para la vida” .El proceso de “llegara ser" y de “formarse en y para la vida" tiene una fase muy importante, diseñar, imaginar e idear el propio PROYECTO PERSONAL DE VIDA.
                                </p>
                                <p>
                                    Los centros y áreas de la Vicerrectoría de Proyecto de Vida, están atentas para acompañar a la comunidad universitaria en este proceso.
                                </p>
                                <p>
+                                   En este espacio estamos dispuestos a atender sus inquietudes, sugerencias y comentarios.  Contáctenos.
+                               </p>
+                               <p>
                                    Contáctenos: vicerrectoria.proyectodevida@ucp.edu.co
                                </p>
-                               
-                                <p>
-                                <a href="https://www.ucp.edu.co/pregrado/">Oferta de Pregrados</a>
-                                </p>
-                               <p>
-                               <a href="https://www.ucp.edu.co/posgrado/">Oferta de Posgrados</a>
-                               </p>
+                             
                            </div>
                               
                            
