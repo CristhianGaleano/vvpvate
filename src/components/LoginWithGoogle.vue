@@ -5,7 +5,7 @@
 
     <v-container>
 
-        <v-layout row  wrap justify-center align-start style="height: 240px;">
+        <v-layout row  wrap justify-space-around align-center mx-1>
                 <v-flex lg5  mx-10>
                     <v-card>
                 <v-toolbar color="infoPublicidad">
@@ -21,16 +21,16 @@
                     <v-layout >
                        <div class="row">
                            <div class="col-md-12">
-                               <p style="text-align: center;">
+                               <p style="text-align: justify;">
                                   La Universidad Católica de Pereira considera que su misión es “Ser apoyo para la formación en y para la vida” .El proceso de “llegara ser" y de “formarse en y para la vida" tiene una fase muy importante, diseñar, imaginar e idear el propio PROYECTO PERSONAL DE VIDA.
                                </p>
-                               <p style="text-align: center;">
+                               <p style="text-align: justify;">
                                    Los centros y áreas de la Vicerrectoría de Proyecto de Vida, están atentas para acompañar a la comunidad universitaria en este proceso.
                                </p>
-                               <p style="text-align: center;">
+                               <p style="text-align: justify;">
                                    En este espacio estamos dispuestos a atender sus inquietudes, sugerencias y comentarios.  Contáctenos.
                                </p>
-                               <p style="text-align: center;">
+                               <p style="text-align: justify;">
                                    Contáctenos: vicerrectoria.proyectodevida@ucp.edu.co
                                </p>
                              
@@ -66,7 +66,7 @@
                         <v-alert border="top" colored-border type="info" elevation="2">
                             <b> Horario de atención:</b> <br> 
                             Lunes a viernes de 8:00 a.m a 12:00 m. y 2:00 p.m. a 6:00 p.m <br>
-                            sábados: 8:00 a.m. a 12:00 m. <br> Zona horararia: UTC-5
+                            sábados: 8:00 a.m. a 12:00 m. <br> Zona horaria: UTC-5
                         </v-alert>
                     </div>
                     </v-layout>
